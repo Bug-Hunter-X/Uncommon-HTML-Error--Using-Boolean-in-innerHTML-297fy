@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error Solution</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv"></div>
+  <script>
+    // Correct usage of innerHTML - convert boolean to string
+    let myBool = true;
+    document.getElementById("myDiv").innerHTML = myBool.toString(); 
+  </script>
+</body>
+</html>
